@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8pbxia9jsr535351/branch/master?svg=true)](https://ci.appveyor.com/project/Sergius92739/ajs-4-1-pure-functions/branch/master)

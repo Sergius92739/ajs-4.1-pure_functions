@@ -1,18 +1,18 @@
 import checkPlayersHealth from '../js/players';
 
-test('Проверка на значение больше 50', () => {
+test('Checking for a value greater than 50', () => {
   expect(checkPlayersHealth({ name: 'Маг', health: 90 })).toBe('healthy');
 });
 
-test('Проверка на значение равно 50', () => {
+test('Checking for value is 50', () => {
   expect(checkPlayersHealth({ name: 'Маг', health: 50 })).toBe('wounded');
 });
 
-test('Проверка на значение меньше 50 и больше 15', () => {
+test('Checking for a value less than 50 and more than 15', () => {
   expect(checkPlayersHealth({ name: 'Маг', health: 30 })).toBe('wounded');
 });
 
-test('Проверка на значение равно 15', () => {
+test('Checking for value is 15', () => {
   expect(checkPlayersHealth({ name: 'Маг', health: 15 })).toBe('wounded');
 });
 
